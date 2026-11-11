@@ -1,0 +1,6 @@
+body { font-family: Arial; margin: 0; background: #0f0f0f; color: white; text-align: center; }
+header { padding: 80px 20px; background: #1a1a1a; }
+header a { background: #00ff88; color: black; padding: 10px 20px; text-decoration: none; border-radius: 8px; font-weight: bold; }
+section { padding: 40px 20px; }
+.card { background: #1f1f1f; padding: 20px; margin: 15px auto; max-width: 400px; border-radius: 10px; }
+.card a { color: #00ff88; }
