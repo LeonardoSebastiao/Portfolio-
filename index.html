@@ -1,14 +1,171 @@
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <meta name="description" content="Portfólio de Leonardo Sebastião, desenvolvedor web.">
+    <title>Leonardo Sebastião | Portfólio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <h1>Olá, mundo!</h1>
-    <p>Bem-vindo ao meu portfólio.</p>
+    <header class="cabecalho">
+        <nav class="navegacao">
+            <a href="#inicio" class="logo">LS<span>.</span></a>
+
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="inicio" id="inicio">
+            <div class="inicio-conteudo">
+                <p class="saudacao">OLÁ, SEJA BEM-VINDO AO MEU PORTFÓLIO</p>
+                <h1>Sou <span>Leonardo Sebastião</span></h1>
+                <h2>Desenvolvedor Web em formação</h2>
+                <p class="introducao">
+                    Transformo ideias em experiências digitais simples, modernas
+                    e funcionais. Estou sempre a aprender e a desenvolver novas soluções.
+                </p>
+
+                <div class="botoes">
+                    <a href="#projetos" class="botao principal">Ver projectos</a>
+                    <a href="#contacto" class="botao secundario">Entrar em contacto</a>
+                </div>
+            </div>
+
+            <div class="cartao-perfil">
+                <div class="perfil-circulo">LS</div>
+                <p class="perfil-nome">Leonardo Sebastião</p>
+                <p class="perfil-area">WEB DEVELOPER</p>
+                <div class="perfil-linha"></div>
+                <p class="perfil-frase">Criatividade · Tecnologia · Evolução</p>
+            </div>
+        </section>
+
+        <section class="secao sobre" id="sobre">
+            <div class="titulo-secao">
+                <p>CONHEÇA-ME</p>
+                <h2>Sobre mim</h2>
+            </div>
+
+            <div class="sobre-conteudo">
+                <div class="sobre-destaque">
+                    <span>01</span>
+                    <h3>Aprender.<br>Construir.<br>Evoluir.</h3>
+                </div>
+
+                <div class="sobre-texto">
+                    <p>
+                        Sou Leonardo Sebastião e tenho interesse pela programação
+                        e pelo desenvolvimento de soluções digitais. Actualmente,
+                        estou a aprofundar os meus conhecimentos em desenvolvimento web.
+                    </p>
+                    <p>
+                        Gosto de transformar ideias em páginas organizadas, acessíveis
+                        e visualmente agradáveis. Cada projecto é uma oportunidade
+                        para aprender, praticar e melhorar as minhas competências.
+                    </p>
+                    <a href="#contacto" class="link-seta">Vamos conversar <span>↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao habilidades" id="habilidades">
+            <div class="titulo-secao">
+                <p>O QUE SEI FAZER</p>
+                <h2>As minhas habilidades</h2>
+            </div>
+
+            <div class="grelha-habilidades">
+                <article class="habilidade">
+                    <span class="numero">01</span>
+                    <h3>HTML5</h3>
+                    <p>Estruturação de páginas web com organização e semântica.</p>
+                </article>
+
+                <article class="habilidade">
+                    <span class="numero">02</span>
+                    <h3>CSS3</h3>
+                    <p>Estilização de interfaces, layouts responsivos e animações.</p>
+                </article>
+
+                <article class="habilidade">
+                    <span class="numero">03</span>
+                    <h3>Python</h3>
+                    <p>Lógica de programação e desenvolvimento de pequenos projectos.</p>
+                </article>
+
+                <article class="habilidade">
+                    <span class="numero">04</span>
+                    <h3>Design Web</h3>
+                    <p>Criação de interfaces intuitivas, modernas e agradáveis.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao projectos" id="projetos">
+            <div class="titulo-secao">
+                <p>TRABALHOS SELECCIONADOS</p>
+                <h2>Os meus projectos</h2>
+            </div>
+
+            <div class="grelha-projectos">
+                <article class="projecto">
+                    <div class="projecto-imagem imagem-um"><span>01</span></div>
+                    <div class="projecto-info">
+                        <p class="projecto-tipo">DESENVOLVIMENTO WEB</p>
+                        <h3>Formulário empresarial</h3>
+                        <p>Uma página de apresentação de empresa com formulário simples e organizado.</p>
+                        <div class="etiquetas"><span>HTML</span><span>CSS</span></div>
+                    </div>
+                </article>
+
+                <article class="projecto">
+                    <div class="projecto-imagem imagem-dois"><span>02</span></div>
+                    <div class="projecto-info">
+                        <p class="projecto-tipo">PROGRAMAÇÃO</p>
+                        <h3>Jogo da Velha</h3>
+                        <p>Um jogo interactivo desenvolvido para praticar lógica e programação.</p>
+                        <div class="etiquetas"><span>Python</span><span>Tkinter</span></div>
+                    </div>
+                </article>
+
+                <article class="projecto">
+                    <div class="projecto-imagem imagem-tres"><span>03</span></div>
+                    <div class="projecto-info">
+                        <p class="projecto-tipo">DESIGN E WEB</p>
+                        <h3>RrplPlus</h3>
+                        <p>Conceito de plataforma digital com identidade visual própria.</p>
+                        <div class="etiquetas"><span>HTML</span><span>CSS</span></div>
+                    </div>
+                </article>
+            </div>
+            <p class="nota-projectos">Os projectos apresentados são exemplos editáveis. Substitui-os pelos teus trabalhos reais e adiciona os respectivos links.</p>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <div class="contacto-conteudo">
+                <p class="sobretitulo">TEM UM PROJECTO EM MENTE?</p>
+                <h2>Vamos criar algo<br><span>incrível juntos.</span></h2>
+                <p>Estou disponível para conversar sobre ideias, projectos e oportunidades de aprendizagem.</p>
+                <a class="botao botao-claro" href="mailto:teuemail@exemplo.com">Enviar e-mail ↗</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <a href="#inicio" class="logo">LS<span>.</span></a>
+        <p>© 2026 Leonardo Sebastião. Todos os direitos reservados.</p>
+        <a href="#inicio" class="voltar-topo">Voltar ao topo ↑</a>
+    </footer>
 
 </body>
 </html>
